@@ -1,0 +1,141 @@
+{
+    "api_version": "2024-04-10",
+    "created": 1717263314,
+    "data": {
+        "object": {
+            "after_expiration": null,
+            "allow_promotion_codes": true,
+            "amount_subtotal": 13946,
+            "amount_total": 16875,
+            "automatic_tax": {
+                "enabled": true,
+                "liability": {
+                    "type": "self"
+                },
+                "status": "complete"
+            },
+            "billing_address_collection": null,
+            "cancel_url": "http://127.0.0.1:8000?checkout=cancelled",
+            "client_reference_id": null,
+            "client_secret": null,
+            "consent": null,
+            "consent_collection": null,
+            "created": 1717263277,
+            "currency": "usd",
+            "currency_conversion": null,
+            "custom_fields": [],
+            "custom_text": {
+                "after_submit": null,
+                "shipping_address": null,
+                "submit": null,
+                "terms_of_service_acceptance": null
+            },
+            "customer": "cus_QDLZldJFKok4af",
+            "customer_creation": null,
+            "customer_details": {
+                "address": {
+                    "city": "Amsterden",
+                    "country": "NL",
+                    "line1": "Kalverstraat1",
+                    "line2": null,
+                    "postal_code": "1012 XC",
+                    "state": null
+                },
+                "email": "test@gmail.com",
+                "name": "Hlyan Phyo Aung",
+                "phone": null,
+                "tax_exempt": "none",
+                "tax_ids": []
+            },
+            "customer_email": null,
+            "expires_at": 1717349676,
+            "id": "cs_test_b1uOkfcU1OZbmRcDTLHXYJANJz2A5fr1YBkAwHOAzfB0HT0uAwDXrCsr4N",
+            "invoice": null,
+            "invoice_creation": {
+                "enabled": false,
+                "invoice_data": {
+                    "account_tax_ids": null,
+                    "custom_fields": null,
+                    "description": null,
+                    "footer": null,
+                    "issuer": null,
+                    "metadata": {},
+                    "rendering_options": null
+                }
+            },
+            "livemode": false,
+            "locale": null,
+            "metadata": {},
+            "mode": "payment",
+            "object": "checkout.session",
+            "payment_intent": "pi_3PMvpjDtGloiY9oy0chtZUiC",
+            "payment_link": null,
+            "payment_method_collection": "if_required",
+            "payment_method_configuration_details": null,
+            "payment_method_options": {
+                "card": {
+                    "request_three_d_secure": "automatic"
+                }
+            },
+            "payment_method_types": [
+                "card"
+            ],
+            "payment_status": "paid",
+            "phone_number_collection": {
+                "enabled": false
+            },
+            "recovered_from": null,
+            "saved_payment_method_options": {
+                "allow_redisplay_filters": [
+                    "always"
+                ],
+                "payment_method_remove": null,
+                "payment_method_save": null
+            },
+            "setup_intent": null,
+            "shipping_address_collection": {
+                "allowed_countries": [
+                    "US",
+                    "NL",
+                    "MM"
+                ]
+            },
+            "shipping_cost": null,
+            "shipping_details": {
+                "address": {
+                    "city": "Amsterden",
+                    "country": "NL",
+                    "line1": "Kalverstraat1",
+                    "line2": null,
+                    "postal_code": "1012 XC",
+                    "state": null
+                },
+                "name": "Hlyan Phyo Aung"
+            },
+            "shipping_options": [],
+            "status": "complete",
+            "submit_type": null,
+            "subscription": null,
+            "success_url": "http://127.0.0.1:8000?checkout=success",
+            "tax_id_collection": {
+                "enabled": true
+            },
+            "total_details": {
+                "amount_discount": 0,
+                "amount_shipping": 0,
+                "amount_tax": 2929
+            },
+            "ui_mode": "hosted",
+            "url": null
+        }
+    },
+    "id": "evt_1PMvpmDtGloiY9oywzew6BD9",
+    "livemode": false,
+    "object": "event",
+    "pending_webhooks": 3,
+    "request": {
+        "id": null,
+        "idempotency_key": null
+    },
+    "type": "checkout.session.completed"
+}
